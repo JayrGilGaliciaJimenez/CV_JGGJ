@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/user2")
 @CrossOrigin("*")
 public class User2Controller {
-    @GetMapping
+    @GetMapping("/")
     public String getMessage(){
         return "Hola desde el controlador 2";
     }
